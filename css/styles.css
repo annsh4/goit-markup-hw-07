@@ -1277,6 +1277,7 @@ header {
 	.footer-items {
 		display: flex;
 		flex-wrap: wrap;
+		padding-left: 108px;
 	}
 
 	.item-logo {
@@ -1421,7 +1422,7 @@ header {
 		padding: 72px 24px 22px 24px;
 
 		min-width: 408px;
-		min-height: 576px;
+		min-height: 586px;
 		background-color: var(--primary-white-color);
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
@@ -1966,5 +1967,20 @@ header {
 	.overlay {
 		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 			url("../images/people-office-desctop@2x.jpg");
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.mobile-menu-contacts .phone {
+		font-size: 24px;
+	}
+
+	.contacts-media .item:not(:last-child) {
+		margin-right: 23px;
+	}
+
+	.customers .item:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 72px;
 	}
 }
