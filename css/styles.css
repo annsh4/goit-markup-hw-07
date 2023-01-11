@@ -607,8 +607,10 @@ header {
 		transform: translate(-50%, -50%);
 		padding: 72px 24px 22px 24px;
 
+		height: 579px;
+		max-height: 90vh;
 		min-width: 392px;
-		min-height: 576px;
+		overflow-y: scroll;
 		background-color: var(--primary-white-color);
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
@@ -1421,8 +1423,10 @@ header {
 		transform: translate(-50%, -50%);
 		padding: 72px 24px 22px 24px;
 
+		height: 579px;
+		max-height: 90vh;
 		min-width: 408px;
-		min-height: 586px;
+		overflow-y: scroll;
 		background-color: var(--primary-white-color);
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
@@ -1982,5 +1986,19 @@ header {
 	.customers .item:not(:last-child) {
 		margin-right: 0;
 		margin-bottom: 72px;
+	}
+
+	.modal {
+		min-width: 300px;
+		max-width: 100%;
+		overflow-x: scroll;
+	}
+
+	.form-input {
+		min-width: 20px;
+	}
+
+	.form-textarea {
+		min-width: 20px;
 	}
 }
