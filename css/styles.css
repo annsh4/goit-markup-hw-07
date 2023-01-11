@@ -431,6 +431,8 @@ header {
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
+		column-gap: 16px;
+		row-gap: 72px;
 	}
 
 	.customers .media {
@@ -447,11 +449,6 @@ header {
 	.customers .media:focus {
 		fill: var(--accent-color);
 		border: 1px solid var(--accent-color);
-	}
-
-	.customers .item:not(:last-child) {
-		margin-right: 16px;
-		margin-bottom: 72px;
 	}
 
 	.customers .item:nth-child(2n) {
@@ -1981,11 +1978,6 @@ header {
 
 	.contacts-media .item:not(:last-child) {
 		margin-right: 23px;
-	}
-
-	.customers .item:not(:last-child) {
-		margin-right: 0;
-		margin-bottom: 72px;
 	}
 
 	.modal {
